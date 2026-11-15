@@ -1,0 +1,30 @@
+CognitiveGraph_OutPut/
+├── config.py                                        # 全局基础参数、个体变异范围
+├── requirements.txt
+├── LICENSE
+├── project_structure.txt                            # 结构说明（英文注释版）
+├── project_structure_ZH.txt                         # 结构说明（中文注释版，本文件）
+├── emergence_results_20260214_191918.xlsx           # 一阶系统原始产出（Excel，Concept Compressions / Migrations）
+├── emergence_results_20260214_192116.xlsx           # 同上，另一次运行
+│
+├── src/
+│   ├── core/
+│   │   ├── cognitive_graph.py                      # 认知图
+│   │   ├── cognitive_states.py                     # 认知状态
+│   │   ├── semantic_network.py                     # 语义网络
+│   │   └── __init__.py
+│   │
+│   ├── emergence/
+│   │   ├── detector_fixed.py                       # 涌现检测
+│   │   ├── metrics.py                              # 涌现指标
+│   │   ├── observer.py                             # 观测器
+│   │   ├── universe.py                             # 原始认知宇宙
+│   │   ├── universe_enhanced.py                    # 增强版认知宇宙（含涌现检测）
+│   │   └── __init__.py
+│   │
+│   └── utils/
+│       ├── individual_variation.py                 # 个体参数变异
+│       ├── visualization.py                        # 通用可视化
+│       └── __init__.py
+│
+└── results/
